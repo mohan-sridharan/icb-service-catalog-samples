@@ -1,0 +1,99 @@
+{
+    "prices": [
+      {
+        "configId": "CLUSTERSIZE",
+        "quantity": 1,
+        "configValues":[  
+             {  
+                "valueId":"STARTER",
+                "label":"",
+                "oneTimeCharge": 139.99,
+                "description":"Price for 3 Node K8 Cluster",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 139.99
+              }
+            },
+            {  
+                "valueId":"MIDSIZE",
+                "label":"",
+                "oneTimeCharge": 139.99,
+                "description":"Price for 5 Node K8 Cluster",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 189.99
+              }
+            },
+            {  
+                "valueId":"GRAND",
+                "label":"",
+                "oneTimeCharge": 139.99,
+                "description":"Price for 8 Node K8 Cluster",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 259.99
+              }
+            }
+        ]
+     },
+     {
+        "configId": "REGISTRYSIZE",
+        "quantity": 1,
+        "configValues":[  
+             {  
+                "valueId":"STARTER-REG",
+                "label":"",
+                "oneTimeCharge": 0.0,
+                "description":"Price for 25GB of Registry Storage",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 24.99
+              }
+            },
+            {  
+                "valueId":"MIDSIZE-REG",
+                "label":"",
+                "oneTimeCharge": 0.0,
+                "description":"Price for 40 GB of Registry Storage",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 39.99
+              }
+            },
+            {  
+                "valueId":"GRAND",
+                "label":"",
+                "oneTimeCharge": 0.0,
+                "description":"Price for 100 GB of Registry Storage",
+                "recurringCharge": {
+                  "frequency": {
+                      "value": 1,
+                      "code": "Month"
+                  },
+                  "value": 99.99
+              }
+            }
+        ]
+     }
+    ],
+    "currencyCode": "USD",
+    "isExternalPricing": false,
+    "externalPricingUrl": "",
+    "basicAuthInfo": "Basic Abcd",
+    "serviceOfferingId": "CB-DHC-CAAS-K8-STARTER"
+  }

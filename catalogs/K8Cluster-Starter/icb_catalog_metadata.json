@@ -1,0 +1,17 @@
+{
+    "icbCatalogRepository": [
+        {
+            "providerCode": "DHC",
+	        "providerName": "Daimler Hybrid Cloud",
+            "serviceOfferingId":"CB-DHC-CAAS-K8-STARTER",
+            "serviceOfferings": [
+                {
+                    "serviceOfferingFile": "DHC/compute/serviceOffering.json",
+                    "configurationFile": "DHC/compute/configurationsRes.json",
+                    "pricingFile": "DHC/compute/pricing.json",
+                    "serviceImageFile": "DHC/compute/kubernetes.png"
+                }
+            ]
+        }
+    ]
+}

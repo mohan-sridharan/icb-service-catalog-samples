@@ -1,0 +1,104 @@
+{
+  "configGroup": [
+    {
+      "configGroupName": "Cluster Configurations",
+      "configGroupCode": "clusterConfigs",
+      "configGroupSequence": 0,
+      "configs": [
+        {
+          "configId": "REGIONNAME",
+          "hidden": false,
+          "isRequired": true,
+          "configName": "Region",
+          "binding": "qty",
+          "description": "Please select the region where the cluster is needed",
+          "default": {
+            "valueId": "EDC",
+            "label": "Europe - Stuttgart"
+          },
+          "inputType": "selectOne",
+          "sequence": 2,
+          "errorMessage": "Please select a region",
+          "validation": "",
+          "derives": [],
+          "values": [
+            {
+              "valueId": "EDC",
+              "label": "Europe - Stuttgart"
+            },
+            {
+              "valueId": "NA",
+              "label": "N.America - Atlanta"
+            }
+          ]
+        },
+        {
+          "configId": "CLUSTERSIZE",
+          "hidden": false,
+          "isRequired": true,
+          "configName": "No. of Nodes Required",
+          "binding": "qty",
+          "description": "Please select the Cluster Size needed",
+          "default": {
+              "valueId": "STARTER",
+              "label": "Starter Cluster - 3 Nodes"
+          },
+          "inputType": "selectOne",
+          "sequence": 2,
+          "errorMessage": "Please select the Cluster Size needed",
+          "validation": "",
+          "derives": [],
+          "values": [
+            {
+              "valueId": "STARTER",
+              "label": "Starter Cluster - 3 Nodes"
+            },
+            {
+              "valueId": "MIDSIZE",
+              "label": "Mid-size Cluster - 5 Nodes"
+            },
+            {
+              "valueId": "GRAND",
+              "label": "Large Cluster - 8 Nodes"
+            }
+          ]
+        },
+        {
+          "configId": "REGISTRYSIZE",
+          "hidden": false,
+          "isRequired": true,
+          "configName": "Registry Size",
+          "binding": "qty",
+          "description": "Please select the Registry Size needed",
+          "default": {
+              "valueId": "STARTER-REG",
+              "label": "25 GB Registry space"
+          },
+          "inputType": "selectOne",
+          "sequence": 3,
+          "errorMessage": "Please select the Registry Size needed",
+          "validation": "",
+          "derives": [],
+          "values": [
+            {
+              "valueId": "STARTER-REG",
+              "label": "25 GB Registry space"
+            },
+            {
+              "valueId": "MIDSIZE-REG",
+              "label": "40 GB Registry space"
+            },
+            {
+              "valueId": "GRAND-REG",
+              "label": "100 GB Registry space"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "isExternalConfiguration": false,
+  "externalConfigurationUrl": "",
+  "basicAuthInfo": "Basic Abcd",
+  "serviceOfferingId": "CB-DHC-CAAS-K8-STARTER"
+}

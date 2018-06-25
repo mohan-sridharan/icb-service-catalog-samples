@@ -1,0 +1,42 @@
+{
+  "serviceOfferings": [
+    {
+      "status": "PUBLISHED",
+      "description": "The Starter Kubernetes cluster is ideal for your team's PoCs & Development activities.",
+      "basePrice": {
+        "oneTimeCharge": 139.99,
+        "currencyCode": "USD",
+        "description": "This will be the minimum charge",
+        "recurringCharge": {
+                "frequency": {
+                    "value": 1,
+                    "code": "Month"
+                },
+                "value": 139.99
+            }
+      },
+      "serviceCategory": [
+        {
+          "id": "compute",
+          "name": "Compute",
+          "description": "compute"
+        }
+      ], 
+      "features": [
+          {
+              "description": [
+                  "Spin up on demand a 3 Node tenant cluster - running Kubernetes v1.10.0",
+                  "Hosted on Daimler Hybrid Cloud - EDC or North America",
+                  "Comes with a on-premise container registry",
+                  "End users will receive Kubernetes console & certificates access "
+                  "Cluster Management and availability oversight by DHC CaaS team"
+              ]
+          }
+      ],
+      "descriptionHTML": "https://kubernetes.io/docs/imported/release/notes/",
+      "serviceDetails": "DHC Kubenetes Cluster provides a dedicated container environment for your development and testing needs.",
+      "serviceOfferingId": "CB-DHC-CAAS-K8-STARTER",
+      "name": "Kubernetes Cluster - Starter v0.2"
+    }
+  ]
+}
